@@ -1,0 +1,4 @@
+order cases exact_block_bound smallest_computed_deficit
+4 64 2/7 0.285714285714
+5 1024 7/20 0.350000000000
+6 32768 4/11 0.363636363636

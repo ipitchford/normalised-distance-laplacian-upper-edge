@@ -1,0 +1,104 @@
+{
+ "title": "The sharp upper edge of the normalised distance Laplacian",
+ "upload_type": "publication",
+ "publication_type": "preprint",
+ "description": "<p><strong>Unrefereed research candidate.</strong> Take a connected graph and a random walk that jumps from a vertex to another with probability proportional to their distance, so it prefers far-away vertices. The normalised distance Laplacian (Reinhart) is the Laplacian of this walk. Its largest eigenvalue lies between 1 and 2, and it is close to 2 exactly when the walk almost alternates between two regions of the graph. The question is how close to 2 it can get over all connected graphs with n vertices, and which graphs get closest.</p><p><strong>What was known.</strong> Reinhart computed the best graphs up to ten vertices and conjectured that they are two cliques joined by a path, with the maximum tending to 2. Johnston and Tait proved the limit, showed that the gap from 2 lies between order 1/n and about 2&radic;2/&radic;n (from a barbell construction), proved the order 1/&radic;n under extra conditions on the eigenvector, and asked for the true order of the gap.</p><p><strong>Results.</strong> The smallest gap over graphs of order n is 4/&radic;(3n) + o(n<sup>&minus;1/2</sup>) (4/&radic;3 &asymp; 2.31), with no extra assumption. Every sequence of graphs attaining this rate looks, at the scale of its diameter, like a path of length (&radic;3 + o(1))&radic;n with half of the vertices packed into nearly complete subgraphs at each end; the extremal eigenvector falls linearly along the path, which is what improves on the earlier 2&radic;2 construction. The method gives sharp constants for every fixed positive power of the distance, for trees (4&radic;(2/3) &asymp; 3.27 at power one) and for graphs excluding a fixed subgraph that contains a cycle, and it describes the extremal eigenvector, the rest of the spectrum, and regularly varying and bounded distance weights. Exhaustive computation shows that among all trees with up to 20 vertices the maximiser is two stars whose centres are joined by a path; the paper states the general case as a conjecture.</p><p><strong>Limits.</strong> The result is first order: graphs that differ from two cliques joined by a path by o(n<sup>2</sup>) edges inside the ends, or by short branches, have the same leading gap, so Reinhart's exact conjecture stays open. The second-order term is observed only numerically (about 4.26/n for the best clique-path-clique graph at a million vertices, still drifting). The tree statement is a conjecture supported by computation. The row-overlap inequality used at the eigenvector extremes is the classical Doeblin-Dobrushin bound; credit for the question, the barbell construction and the conditional order goes to Johnston and Tait, and for the matrix, conjecture and small-order table to Reinhart.</p><p><strong>Contents.</strong> The paper (LaTeX source, figure and PDF) and Python scripts with recorded outputs: verify.py (exact characteristic polynomials, exact trial quotients up to n = 10<sup>8</sup>, distance-power and slowly varying weight checks, the bounded-weight inequality), finite_search.py (nauty geng/gentreeg; all connected graphs of order 4 to 9 and all trees of order 6 to 20, and the best family members up to n = 10<sup>6</sup>), two independent recomputations and the figure script. Every check exits with an error on failure, also under python -O. Also included: the bibliography, a machine-readable index, a research-gate record, a review summary, a replay receipt and SHA-256 sums.</p><p><strong>Assurance.</strong> Written proofs with computer checks. Internal AI-assisted review only: a combined five-role Claude review panel, one revision round with extensions, a verification re-review with a line-by-line proof audit of the rewritten text, and a clean replay with a negative control. No Astra/Codex review took place. This is not peer review, independent reproduction or formal verification. Creator: Anonymous. Text CC0-1.0; code MIT.</p>",
+ "creators": [
+  {
+   "name": "Anonymous"
+  }
+ ],
+ "access_right": "open",
+ "license": "cc-zero",
+ "version": "0.1.0-candidate",
+ "publication_date": "2026-11-25",
+ "keywords": [
+  "normalized distance Laplacian",
+  "distance matrix",
+  "spectral radius",
+  "extremal graph theory",
+  "random walk",
+  "Dobrushin coefficient",
+  "trees",
+  "Reinhart conjecture",
+  "spectral graph theory"
+ ],
+ "notes": "Code (*.py and the CI workflow) is MIT; prose, manuscript, figure, recorded outputs and records are CC0-1.0.",
+ "related_identifiers": [
+  {
+   "identifier": "https://github.com/ipitchford/normalised-distance-laplacian-upper-edge/tree/v0.1.0-candidate",
+   "relation": "isSupplementTo",
+   "scheme": "url"
+  },
+  {
+   "identifier": "https://evidencepress.org/releases/normalised-distance-laplacian-upper-edge/",
+   "relation": "isDocumentedBy",
+   "scheme": "url"
+  },
+  {
+   "identifier": "10.1016/j.aam.2018.07.002",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.1016/j.laa.2026.10.028",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.1090/s0002-9904-1946-08715-7",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.1016/j.jctb.2015.05.001",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.1007/s00020-014-2193-2",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.1007/s44007-021-00012-9",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.1016/j.laa.2024.03.021",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "10.1515/spma-2020-0114",
+   "relation": "references",
+   "scheme": "doi"
+  },
+  {
+   "identifier": "arXiv:2503.10895",
+   "relation": "references",
+   "scheme": "arxiv"
+  },
+  {
+   "identifier": "arXiv:1307.4649",
+   "relation": "references",
+   "scheme": "arxiv"
+  },
+  {
+   "identifier": "arXiv:2302.11459",
+   "relation": "references",
+   "scheme": "arxiv"
+  },
+  {
+   "identifier": "arXiv:2608.10629",
+   "relation": "references",
+   "scheme": "arxiv"
+  },
+  {
+   "identifier": "arXiv:1903.04575",
+   "relation": "references",
+   "scheme": "arxiv"
+  }
+ ]
+}

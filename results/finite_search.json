@@ -1,0 +1,443 @@
+{
+ "tolerance": 1e-10,
+ "python": "3.12.11",
+ "numpy": "2.3.5",
+ "exhaustive": [
+  {
+   "class": "connected graphs",
+   "n": 4,
+   "count": 6,
+   "min_deficit": 0.38564322306091514,
+   "family_best": 0.38564322306091525,
+   "family_params": [
+    2,
+    0,
+    2
+   ],
+   "second_smallest": 0.4702152031582776,
+   "match": true
+  },
+  {
+   "class": "connected graphs",
+   "n": 5,
+   "count": 21,
+   "min_deficit": 0.41136213522735365,
+   "family_best": 0.4113621352273533,
+   "family_params": [
+    2,
+    1,
+    2
+   ],
+   "second_smallest": 0.4326601826895654,
+   "match": true
+  },
+  {
+   "class": "connected graphs",
+   "n": 6,
+   "count": 112,
+   "min_deficit": 0.4216460272197492,
+   "family_best": 0.42164602721974886,
+   "family_params": [
+    3,
+    1,
+    2
+   ],
+   "second_smallest": 0.42446098752419825,
+   "match": true
+  },
+  {
+   "class": "connected graphs",
+   "n": 7,
+   "count": 853,
+   "min_deficit": 0.41351815592339436,
+   "family_best": 0.4135181559233946,
+   "family_params": [
+    3,
+    1,
+    3
+   ],
+   "second_smallest": 0.4204870775727232,
+   "match": true
+  },
+  {
+   "class": "connected graphs",
+   "n": 8,
+   "count": 11117,
+   "min_deficit": 0.4096715503327488,
+   "family_best": 0.40967155033274905,
+   "family_params": [
+    3,
+    2,
+    3
+   ],
+   "second_smallest": 0.41669126441447923,
+   "match": true
+  },
+  {
+   "class": "connected graphs",
+   "n": 9,
+   "count": 261080,
+   "min_deficit": 0.40627612814011504,
+   "family_best": 0.4062761281401148,
+   "family_params": [
+    4,
+    2,
+    3
+   ],
+   "second_smallest": 0.41057778242686593,
+   "match": true
+  },
+  {
+   "class": "trees",
+   "n": 6,
+   "count": 6,
+   "min_deficit": 0.4244609875241985,
+   "family_best": 0.42446098752419825,
+   "family_params": [
+    0,
+    3,
+    1
+   ],
+   "second_smallest": 0.4709260491286481,
+   "match": true
+  },
+  {
+   "class": "trees",
+   "n": 7,
+   "count": 11,
+   "min_deficit": 0.4321626656442168,
+   "family_best": 0.43216266564421657,
+   "family_params": [
+    1,
+    3,
+    1
+   ],
+   "second_smallest": 0.4529887548917526,
+   "match": true
+  },
+  {
+   "class": "trees",
+   "n": 8,
+   "count": 23,
+   "min_deficit": 0.4370794677977735,
+   "family_best": 0.43707946779777374,
+   "family_params": [
+    0,
+    5,
+    1
+   ],
+   "second_smallest": 0.4448146235667313,
+   "match": true
+  },
+  {
+   "class": "trees",
+   "n": 9,
+   "count": 47,
+   "min_deficit": 0.44041407264777777,
+   "family_best": 0.44041407264777754,
+   "family_params": [
+    1,
+    5,
+    1
+   ],
+   "second_smallest": 0.4412843426265698,
+   "match": true
+  },
+  {
+   "class": "trees",
+   "n": 10,
+   "count": 106,
+   "min_deficit": 0.43868667305308506,
+   "family_best": 0.43868667305308506,
+   "family_params": [
+    2,
+    4,
+    2
+   ],
+   "second_smallest": 0.4400237082233258,
+   "match": true
+  },
+  {
+   "class": "trees",
+   "n": 11,
+   "count": 235,
+   "min_deficit": 0.43596672625383226,
+   "family_best": 0.43596672625383237,
+   "family_params": [
+    2,
+    5,
+    2
+   ],
+   "second_smallest": 0.43988436484547166,
+   "match": true
+  },
+  {
+   "class": "trees",
+   "n": 12,
+   "count": 551,
+   "min_deficit": 0.4351082814320234,
+   "family_best": 0.43510828143202374,
+   "family_params": [
+    2,
+    6,
+    2
+   ],
+   "second_smallest": 0.4354578454139876,
+   "match": true
+  },
+  {
+   "class": "trees",
+   "n": 13,
+   "count": 1301,
+   "min_deficit": 0.4311601571524196,
+   "family_best": 0.4311601571524196,
+   "family_params": [
+    3,
+    5,
+    3
+   ],
+   "second_smallest": 0.4321698531549403,
+   "match": true
+  },
+  {
+   "class": "trees",
+   "n": 14,
+   "count": 3159,
+   "min_deficit": 0.4268693520239756,
+   "family_best": 0.4268693520239756,
+   "family_params": [
+    3,
+    6,
+    3
+   ],
+   "second_smallest": 0.43073600256177313,
+   "match": true
+  },
+  {
+   "class": "trees",
+   "n": 15,
+   "count": 7741,
+   "min_deficit": 0.4244559906459888,
+   "family_best": 0.42445599064598893,
+   "family_params": [
+    4,
+    6,
+    3
+   ],
+   "second_smallest": 0.4248568531666491,
+   "match": true
+  },
+  {
+   "class": "trees",
+   "n": 16,
+   "count": 19320,
+   "min_deficit": 0.4197968437471682,
+   "family_best": 0.4197968437471681,
+   "family_params": [
+    4,
+    6,
+    4
+   ],
+   "second_smallest": 0.4210008070445447,
+   "match": true
+  },
+  {
+   "class": "trees",
+   "n": 17,
+   "count": 48629,
+   "min_deficit": 0.41563748951801727,
+   "family_best": 0.41563748951801693,
+   "family_params": [
+    4,
+    7,
+    4
+   ],
+   "second_smallest": 0.41785891077940795,
+   "match": true
+  },
+  {
+   "class": "trees",
+   "n": 18,
+   "count": 123867,
+   "min_deficit": 0.41242950692409397,
+   "family_best": 0.4124295069240943,
+   "family_params": [
+    4,
+    7,
+    5
+   ],
+   "second_smallest": 0.41354651743913806,
+   "match": true
+  },
+  {
+   "class": "trees",
+   "n": 19,
+   "count": 317955,
+   "min_deficit": 0.407797367957453,
+   "family_best": 0.4077973679574525,
+   "family_params": [
+    5,
+    7,
+    5
+   ],
+   "second_smallest": 0.40939871150382345,
+   "match": true
+  },
+  {
+   "class": "trees",
+   "n": 20,
+   "count": 823065,
+   "min_deficit": 0.40425325250205657,
+   "family_best": 0.40425325250205646,
+   "family_params": [
+    5,
+    8,
+    5
+   ],
+   "second_smallest": 0.4051297506783561,
+   "match": true
+  }
+ ],
+ "family_optimum": [
+  {
+   "family": "clique-path-clique",
+   "n": 100,
+   "path_edges": 15,
+   "block_sizes": [
+    43,
+    43
+   ],
+   "deficit": 0.19188966202509083,
+   "sqrt_n_deficit": 1.9188966202509083,
+   "r_over_sqrt_n": 1.5,
+   "second_order_coefficient": -3.9050445650759458,
+   "limit": 2.309401076758503
+  },
+  {
+   "family": "clique-path-clique",
+   "n": 1000,
+   "path_edges": 52,
+   "block_sizes": [
+    474,
+    475
+   ],
+   "deficit": 0.0688857905594139,
+   "sqrt_n_deficit": 2.1783599658907242,
+   "r_over_sqrt_n": 1.6443843832875573,
+   "second_order_coefficient": -4.143883774608244,
+   "limit": 2.309401076758503
+  },
+  {
+   "family": "clique-path-clique",
+   "n": 10000,
+   "path_edges": 171,
+   "block_sizes": [
+    4915,
+    4915
+   ],
+   "deficit": 0.02267135417625099,
+   "sqrt_n_deficit": 2.267135417625099,
+   "r_over_sqrt_n": 1.71,
+   "second_order_coefficient": -4.2265659133403854,
+   "limit": 2.309401076758503
+  },
+  {
+   "family": "clique-path-clique",
+   "n": 100000,
+   "path_edges": 545,
+   "block_sizes": [
+    49728,
+    49728
+   ],
+   "deficit": 0.007260426906397055,
+   "sqrt_n_deficit": 2.2959485809384828,
+   "r_over_sqrt_n": 1.7234413247917666,
+   "second_order_coefficient": -4.25405270051583,
+   "limit": 2.309401076758503
+  },
+  {
+   "family": "clique-path-clique",
+   "n": 1000000,
+   "path_edges": 1729,
+   "block_sizes": [
+    499136,
+    499136
+   ],
+   "deficit": 0.0023051384806880293,
+   "sqrt_n_deficit": 2.3051384806880293,
+   "r_over_sqrt_n": 1.729,
+   "second_order_coefficient": -4.262596070473634,
+   "limit": 2.309401076758503
+  },
+  {
+   "family": "double broom",
+   "n": 100,
+   "path_edges": 22,
+   "block_sizes": [
+    39,
+    40
+   ],
+   "deficit": 0.2517336892929486,
+   "sqrt_n_deficit": 2.517336892929486,
+   "r_over_sqrt_n": 2.2,
+   "second_order_coefficient": -7.48649430781418,
+   "limit": 3.265986323710904
+  },
+  {
+   "family": "double broom",
+   "n": 1000,
+   "path_edges": 74,
+   "block_sizes": [
+    463,
+    464
+   ],
+   "deficit": 0.09511166179672004,
+   "sqrt_n_deficit": 3.0076948332125806,
+   "r_over_sqrt_n": 2.3400854685246006,
+   "second_order_coefficient": -8.167894102144418,
+   "limit": 3.265986323710904
+  },
+  {
+   "family": "double broom",
+   "n": 10000,
+   "path_edges": 242,
+   "block_sizes": [
+    4879,
+    4880
+   ],
+   "deficit": 0.031818464795078216,
+   "sqrt_n_deficit": 3.1818464795078216,
+   "r_over_sqrt_n": 2.42,
+   "second_order_coefficient": -8.413984420308251,
+   "limit": 3.265986323710904
+  },
+  {
+   "family": "double broom",
+   "n": 100000,
+   "path_edges": 771,
+   "block_sizes": [
+    49615,
+    49615
+   ],
+   "deficit": 0.010243004946044576,
+   "sqrt_n_deficit": 3.239122571387098,
+   "r_over_sqrt_n": 2.43811607598982,
+   "second_order_coefficient": -8.495064384186811,
+   "limit": 3.265986323710904
+  },
+  {
+   "family": "double broom",
+   "n": 1000000,
+   "path_edges": 2446,
+   "block_sizes": [
+    498777,
+    498778
+   ],
+   "deficit": 0.0032574651135829358,
+   "sqrt_n_deficit": 3.257465113582936,
+   "r_over_sqrt_n": 2.446,
+   "second_order_coefficient": -8.52121012796836,
+   "limit": 3.265986323710904
+  }
+ ]
+}

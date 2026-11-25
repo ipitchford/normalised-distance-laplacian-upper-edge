@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it using these metadata."
+type: software
+title: "The sharp upper edge of the normalised distance Laplacian"
+abstract: "Unrefereed research candidate. For the normalised distance Laplacian of a connected graph (Reinhart), the maximum of the largest eigenvalue over graphs of order n is 2 - 4/sqrt(3n) + o(n^-1/2), answering the order-of-magnitude question of Johnston and Tait. Every sequence attaining this rate looks, at the scale of its diameter, like a path of length (sqrt3 + o(1)) sqrt(n) with half of the vertices in nearly complete subgraphs at each end. Sharp constants follow for every fixed power of the distance, for trees (4 sqrt(2/3) at power one) and for graphs excluding a fixed subgraph with a cycle. Exhaustive computation: among all trees with 6 to 20 vertices the maximiser is two stars joined by a path. First order only; Reinhart's exact conjecture stays open."
+authors:
+  - name: "Anonymous"
+version: "0.1.0-candidate"
+date-released: "2026-11-25"
+doi: "10.5281/zenodo.24540994"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24540994"
+    description: "This version"
+  - type: doi
+    value: "10.5281/zenodo.24540993"
+    description: "All versions (concept DOI)"
+repository-code: "https://github.com/ipitchford/normalised-distance-laplacian-upper-edge"
+url: "https://evidencepress.org/releases/normalised-distance-laplacian-upper-edge/"
+license: CC0-1.0
+keywords:
+  - normalized distance Laplacian
+  - distance matrix
+  - spectral radius
+  - extremal graph theory
+  - random walk
+preferred-citation:
+  type: article
+  title: "The sharp upper edge of the normalised distance Laplacian"
+  authors:
+    - name: "Anonymous"
+  year: 2026
+  doi: "10.5281/zenodo.24540994"
+  publisher:
+    name: "Zenodo"
+  notes: "Version 0.1.0-candidate; unrefereed"

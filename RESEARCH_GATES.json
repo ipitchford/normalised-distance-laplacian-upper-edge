@@ -1,0 +1,251 @@
+{
+ "schemaVersion": "1.0",
+ "provenance": "Compiled 25 November 2026 for 0.1.0-candidate from the dated searches of the internal AI-assisted review (24 November 2026), the source retrieval and reading record, the corpus overlap check, refs.bib, REVIEW_SUMMARY.md and the paper's own positioning (Sections 1 and 12). It records scrutiny performed, not historical priority.",
+ "contributionMap": [
+  {
+   "claim": "The maximum of the spectral radius of the normalised distance Laplacian over connected graphs of order n is 2 - 4/sqrt(3n) + o(n^-1/2)",
+   "unit": "statement",
+   "paperLocation": "abstract; Theorem 1; Propositions 5 and 6",
+   "searches": [
+    {
+     "date": "2026-11-24",
+     "corpus": "Semantic Scholar citing works of Johnston-Tait (LAA 2024 and arXiv:2302.11459: Byrne-Johnston-Schildkraut-Tait, Kumar-Patra and one unrelated review), arXiv title and abstract search, general web searches, and the Evidence Press corpus (site papers/ and the batch corpus list); MathSciNet and zbMATH were not searched",
+     "query": "normalized distance Laplacian spectral radius; normalized distance Laplacian extremal; Reinhart conjecture clique path clique; distance Laplacian barbell sqrt(n); order of magnitude 2 - spectral radius normalized distance Laplacian"
+    },
+    {
+     "date": "2026-11-24",
+     "corpus": "the cited works, obtained and read: Johnston-Tait arXiv:2302.11459v1, Reinhart arXiv:1903.04575v2, Gaubert-Qu arXiv:1307.4649, Furedi arXiv:1501.03129, Erdos-Stone 1946 (Renyi Institute copy), Hogben-Reinhart arXiv:2103.00647, Aksoy-Chung-Tait-Tobin arXiv:1804.05500, Byrne et al. arXiv:2503.10895, Kumar-Patra arXiv:2608.10629",
+     "query": "Johnston-Tait closing question, Proposition 4.2 and its constant remark, Theorem 4.4, Corollary 4.5, Theorem 4.7; Reinhart Table 2.1, Conjecture 2.10, Table 2.2; Gaubert-Qu equations (1)-(2) and Theorem 5.6; Erdos-Stone theorem and the Turan statement; Kumar-Patra Theorem 1.3; Aksoy et al. extremal relaxation time"
+    }
+   ],
+   "closestPriorWork": "Johnston-Tait (LAA 2024): bounds between order 1/n and 2^{3/2}/sqrt(n), order 1/sqrt(n) under eigenvector conditions (Theorem 4.7), and the question of the order of magnitude",
+   "verdict": "new-in-bounded-search",
+   "verdictNote": "no prior or later resolution found among citing works or by search; the constant 4/sqrt3 improves the barbell constant 2 sqrt2 and is shown sharp"
+  },
+  {
+   "claim": "Structure of near-maximisers to first order: diameter (sqrt3 + o(1)) sqrt n, two halves of nearly complete subgraphs, measured Gromov-Hausdorff limit",
+   "unit": "statement",
+   "paperLocation": "Theorem 1(a)-(c); Proposition 7; Section 7",
+   "searches": [
+    {
+     "date": "2026-11-24",
+     "corpus": "Semantic Scholar citing works of Johnston-Tait (LAA 2024 and arXiv:2302.11459: Byrne-Johnston-Schildkraut-Tait, Kumar-Patra and one unrelated review), arXiv title and abstract search, general web searches, and the Evidence Press corpus (site papers/ and the batch corpus list); MathSciNet and zbMATH were not searched",
+     "query": "normalized distance Laplacian spectral radius; normalized distance Laplacian extremal; Reinhart conjecture clique path clique; distance Laplacian barbell sqrt(n); order of magnitude 2 - spectral radius normalized distance Laplacian"
+    },
+    {
+     "date": "2026-11-24",
+     "corpus": "the cited works, obtained and read: Johnston-Tait arXiv:2302.11459v1, Reinhart arXiv:1903.04575v2, Gaubert-Qu arXiv:1307.4649, Furedi arXiv:1501.03129, Erdos-Stone 1946 (Renyi Institute copy), Hogben-Reinhart arXiv:2103.00647, Aksoy-Chung-Tait-Tobin arXiv:1804.05500, Byrne et al. arXiv:2503.10895, Kumar-Patra arXiv:2608.10629",
+     "query": "Johnston-Tait closing question, Proposition 4.2 and its constant remark, Theorem 4.4, Corollary 4.5, Theorem 4.7; Reinhart Table 2.1, Conjecture 2.10, Table 2.2; Gaubert-Qu equations (1)-(2) and Theorem 5.6; Erdos-Stone theorem and the Turan statement; Kumar-Patra Theorem 1.3; Aksoy et al. extremal relaxation time"
+    }
+   ],
+   "closestPriorWork": "Reinhart Conjecture 2.10 (exact maximiser is clique-path-clique; not decided here)",
+   "verdict": "new-in-bounded-search",
+   "verdictNote": "first-order description only; Reinhart's exact conjecture stays open"
+  },
+  {
+   "claim": "Sharp constants K_{alpha,b} for distance powers alpha > 0, trees, K_{kappa+1}-free graphs and graphs excluding a subgraph with a cycle; eigenvector profile and spectrum collapse; regularly varying and bounded weights",
+   "unit": "statement",
+   "paperLocation": "Theorem 2; Corollaries 8, 9, 11; Theorem 10",
+   "searches": [
+    {
+     "date": "2026-11-24",
+     "corpus": "Semantic Scholar citing works of Johnston-Tait (LAA 2024 and arXiv:2302.11459: Byrne-Johnston-Schildkraut-Tait, Kumar-Patra and one unrelated review), arXiv title and abstract search, general web searches, and the Evidence Press corpus (site papers/ and the batch corpus list); MathSciNet and zbMATH were not searched",
+     "query": "normalized distance Laplacian spectral radius; normalized distance Laplacian extremal; Reinhart conjecture clique path clique; distance Laplacian barbell sqrt(n); order of magnitude 2 - spectral radius normalized distance Laplacian"
+    },
+    {
+     "date": "2026-11-24",
+     "corpus": "the cited works, obtained and read: Johnston-Tait arXiv:2302.11459v1, Reinhart arXiv:1903.04575v2, Gaubert-Qu arXiv:1307.4649, Furedi arXiv:1501.03129, Erdos-Stone 1946 (Renyi Institute copy), Hogben-Reinhart arXiv:2103.00647, Aksoy-Chung-Tait-Tobin arXiv:1804.05500, Byrne et al. arXiv:2503.10895, Kumar-Patra arXiv:2608.10629",
+     "query": "Johnston-Tait closing question, Proposition 4.2 and its constant remark, Theorem 4.4, Corollary 4.5, Theorem 4.7; Reinhart Table 2.1, Conjecture 2.10, Table 2.2; Gaubert-Qu equations (1)-(2) and Theorem 5.6; Erdos-Stone theorem and the Turan statement; Kumar-Patra Theorem 1.3; Aksoy et al. extremal relaxation time"
+    }
+   ],
+   "closestPriorWork": "none found for this matrix; Aksoy-Chung-Tait-Tobin solve the analogous problem for the ordinary random walk (different operator, power of n and proof)",
+   "verdict": "new-in-bounded-search",
+   "verdictNote": "extensions of the same method"
+  },
+  {
+   "claim": "Exhaustive computation: two stars joined by a path maximise rho among all trees of order 6 to 20; clique-path-clique among all connected graphs of order 4 to 9; tree analogue of Reinhart's conjecture",
+   "unit": "statement",
+   "paperLocation": "Section 11; Table 2; Conjecture 12",
+   "searches": [
+    {
+     "date": "2026-11-24",
+     "corpus": "Semantic Scholar citing works of Johnston-Tait (LAA 2024 and arXiv:2302.11459: Byrne-Johnston-Schildkraut-Tait, Kumar-Patra and one unrelated review), arXiv title and abstract search, general web searches, and the Evidence Press corpus (site papers/ and the batch corpus list); MathSciNet and zbMATH were not searched",
+     "query": "normalized distance Laplacian spectral radius; normalized distance Laplacian extremal; Reinhart conjecture clique path clique; distance Laplacian barbell sqrt(n); order of magnitude 2 - spectral radius normalized distance Laplacian"
+    },
+    {
+     "date": "2026-11-24",
+     "corpus": "the cited works, obtained and read: Johnston-Tait arXiv:2302.11459v1, Reinhart arXiv:1903.04575v2, Gaubert-Qu arXiv:1307.4649, Furedi arXiv:1501.03129, Erdos-Stone 1946 (Renyi Institute copy), Hogben-Reinhart arXiv:2103.00647, Aksoy-Chung-Tait-Tobin arXiv:1804.05500, Byrne et al. arXiv:2503.10895, Kumar-Patra arXiv:2608.10629",
+     "query": "Johnston-Tait closing question, Proposition 4.2 and its constant remark, Theorem 4.4, Corollary 4.5, Theorem 4.7; Reinhart Table 2.1, Conjecture 2.10, Table 2.2; Gaubert-Qu equations (1)-(2) and Theorem 5.6; Erdos-Stone theorem and the Turan statement; Kumar-Patra Theorem 1.3; Aksoy et al. extremal relaxation time"
+    }
+   ],
+   "closestPriorWork": "Reinhart Table 2.1 (all graphs up to ten vertices; reproduced for 4 to 9)",
+   "verdict": "new-in-bounded-search",
+   "verdictNote": "tree computation and conjecture not found; graph computation reproduces Reinhart"
+  },
+  {
+   "claim": "Method: the Doeblin-Dobrushin ergodicity-coefficient bound applied to the two rows at the extremes of an extremal eigenvector, a coarse covering lemma, and a per-vertex quadratic cost on a shortest path balanced against the cost inside the two crowds",
+   "unit": "method",
+   "paperLocation": "Sections 4-5 (Lemmas 3-4, Proposition 5)",
+   "searches": [
+    {
+     "date": "2026-11-24",
+     "corpus": "Semantic Scholar citing works of Johnston-Tait (LAA 2024 and arXiv:2302.11459: Byrne-Johnston-Schildkraut-Tait, Kumar-Patra and one unrelated review), arXiv title and abstract search, general web searches, and the Evidence Press corpus (site papers/ and the batch corpus list); MathSciNet and zbMATH were not searched",
+     "query": "normalized distance Laplacian spectral radius; normalized distance Laplacian extremal; Reinhart conjecture clique path clique; distance Laplacian barbell sqrt(n); order of magnitude 2 - spectral radius normalized distance Laplacian"
+    },
+    {
+     "date": "2026-11-24",
+     "corpus": "the cited works, obtained and read: Johnston-Tait arXiv:2302.11459v1, Reinhart arXiv:1903.04575v2, Gaubert-Qu arXiv:1307.4649, Furedi arXiv:1501.03129, Erdos-Stone 1946 (Renyi Institute copy), Hogben-Reinhart arXiv:2103.00647, Aksoy-Chung-Tait-Tobin arXiv:1804.05500, Byrne et al. arXiv:2503.10895, Kumar-Patra arXiv:2608.10629",
+     "query": "Johnston-Tait closing question, Proposition 4.2 and its constant remark, Theorem 4.4, Corollary 4.5, Theorem 4.7; Reinhart Table 2.1, Conjecture 2.10, Table 2.2; Gaubert-Qu equations (1)-(2) and Theorem 5.6; Erdos-Stone theorem and the Turan statement; Kumar-Patra Theorem 1.3; Aksoy et al. extremal relaxation time"
+    }
+   ],
+   "closestPriorWork": "Doeblin-Dobrushin coefficient bound (classical; via Gaubert-Qu equations (1)-(2)); Birkhoff bound (via Gaubert-Qu Theorem 5.6); Erdos-Stone, Turan and Furedi stability",
+   "verdict": "partially-known-cited",
+   "verdictNote": "the inequality is classical and credited; novelty is claimed only for its application at the eigenvector extremes and the resulting balance argument"
+  }
+ ],
+ "sourcesReadInFull": [
+  {
+   "citation": "Johnston, J. and Tait, M. (2024), Extremal values for the spectral radius of the normalized distance Laplacian, Linear Algebra Appl. 691, 37-49 (arXiv:2302.11459)",
+   "usedFor": "the question, the barbell construction and its constant, the conditional order",
+   "readWhat": "whole paper (arXiv version)",
+   "date": "2026-11-24",
+   "evidenceLocator": "https://doi.org/10.1016/j.laa.2024.03.021"
+  },
+  {
+   "citation": "Reinhart, C. (2021), The normalized distance Laplacian, Special Matrices 9, 1-18 (arXiv:1903.04575)",
+   "usedFor": "the matrix, Conjecture 2.10, Tables 2.1 and 2.2",
+   "readWhat": "whole paper (arXiv version)",
+   "date": "2026-11-24",
+   "evidenceLocator": "https://doi.org/10.1515/spma-2020-0114"
+  },
+  {
+   "citation": "Gaubert, S. and Qu, Z. (2015), Dobrushin's ergodicity coefficient for Markov operators on cones, Integral Equations Operator Theory 81, 127-150 (arXiv:1307.4649)",
+   "usedFor": "Dobrushin coefficient bound; Birkhoff bound",
+   "readWhat": "whole paper (arXiv version)",
+   "date": "2026-11-24",
+   "evidenceLocator": "https://doi.org/10.1007/s00020-014-2193-2"
+  },
+  {
+   "citation": "Furedi, Z. (2015), A proof of the stability of extremal graphs, J. Combin. Theory Ser. B 115, 66-71 (arXiv:1501.03129)",
+   "usedFor": "stability for forbidden subgraphs",
+   "readWhat": "whole paper (arXiv version)",
+   "date": "2026-11-24",
+   "evidenceLocator": "https://doi.org/10.1016/j.jctb.2015.05.001"
+  },
+  {
+   "citation": "Erdos, P. and Stone, A. H. (1946), On the structure of linear graphs, Bull. Amer. Math. Soc. 52, 1087-1091",
+   "usedFor": "Erdos-Stone theorem; Turan statement in its introduction",
+   "readWhat": "whole paper (Renyi Institute copy)",
+   "date": "2026-11-24",
+   "evidenceLocator": "https://doi.org/10.1090/S0002-9904-1946-08715-7"
+  },
+  {
+   "citation": "Hogben, L. and Reinhart, C. (2022), Spectra of variants of distance matrices of graphs and digraphs: a survey, La Matematica 1, 186-224 (arXiv:2103.00647)",
+   "usedFor": "context",
+   "readWhat": "whole paper (arXiv version)",
+   "date": "2026-11-24",
+   "evidenceLocator": "https://doi.org/10.1007/s44007-021-00012-9"
+  },
+  {
+   "citation": "Aksoy, S. G., Chung, F., Tait, M. and Tobin, J. (2018), The maximum relaxation time of a random walk, Adv. in Appl. Math. 101, 1-14 (arXiv:1804.05500)",
+   "usedFor": "analogous problem for the ordinary random walk",
+   "readWhat": "whole paper (arXiv version)",
+   "date": "2026-11-24",
+   "evidenceLocator": "https://doi.org/10.1016/j.aam.2018.07.002"
+  },
+  {
+   "citation": "Byrne, J., Johnston, J., Schildkraut, C. and Tait, M. (2027), Expansion in distance matrices, Linear Algebra Appl. 754, 271-288 (arXiv:2503.10895)",
+   "usedFor": "other spectral edge (context)",
+   "readWhat": "whole paper (arXiv version)",
+   "date": "2026-11-24",
+   "evidenceLocator": "https://doi.org/10.1016/j.laa.2026.10.028"
+  },
+  {
+   "citation": "Kumar, H. and Patra, K. L. (2026), Spectral gap of the normalized distance Laplacian, arXiv:2608.10629",
+   "usedFor": "sharp bound 2/3 + 4/(3 t_max) on the other edge (context)",
+   "readWhat": "whole paper",
+   "date": "2026-11-24",
+   "evidenceLocator": "https://arxiv.org/abs/2608.10629"
+  }
+ ],
+ "limitationTriage": [
+  {
+   "limitation": "Result is first order; it does not decide which graph is the exact maximiser (Reinhart's conjecture)",
+   "closingQuestion": "Is there a matching lower bound at order 1/n?",
+   "triedOrSearched": "attempted analytically in the revision round; the lower-bound method discards o(n^2) energy by design",
+   "estimatedCost": "weeks or more",
+   "cheap": false,
+   "decision": "OPEN",
+   "reasonOpen": "Section 12, open problems 1 and 2",
+   "whyNotClosedNow": "research-level; stated as open"
+  },
+  {
+   "limitation": "Second-order coefficient observed only numerically (about 4.26 and 8.52 at n = 10^6, still increasing)",
+   "closingQuestion": "What is the limit of n(K/sqrt n - eps) for the best family members?",
+   "triedOrSearched": "computed to n = 10^6 by finite_search.py (ternary search plus window; upper bounds)",
+   "estimatedCost": "weeks",
+   "cheap": false,
+   "decision": "OPEN",
+   "reasonOpen": "Section 11 and open problem 2",
+   "whyNotClosedNow": "no proof; recorded as an observation"
+  },
+  {
+   "limitation": "Tree conjecture supported by computation only for 6 to 20 vertices",
+   "closingQuestion": "Does two-stars-and-a-path maximise rho for all trees?",
+   "triedOrSearched": "exhaustive search over all trees of order 6 to 20 (nauty gentreeg)",
+   "estimatedCost": "open in general",
+   "cheap": false,
+   "decision": "OPEN",
+   "reasonOpen": "Conjecture 12; open problem 3",
+   "whyNotClosedNow": "a finite check cannot settle all n"
+  },
+  {
+   "limitation": "Exhaustive search over all connected graphs stops at 9 vertices",
+   "closingQuestion": "Would n = 10 change anything?",
+   "triedOrSearched": "Reinhart Table 2.1 already covers all graphs up to ten vertices",
+   "estimatedCost": "hours (11.7 million graphs)",
+   "cheap": true,
+   "decision": "CLOSED",
+   "reasonOpen": "",
+   "whyNotClosedNow": ""
+  },
+  {
+   "limitation": "Certificate scripts relied on assert in the source bundle",
+   "closingQuestion": "Do the checks fail correctly under python -O?",
+   "triedOrSearched": "explicit require() checks; negative control (verify.py check poly.subs(x,1)==0 changed to ==1) exits 1 under -O",
+   "estimatedCost": "hours",
+   "cheap": true,
+   "decision": "CLOSED",
+   "reasonOpen": "",
+   "whyNotClosedNow": ""
+  },
+  {
+   "limitation": "Novelty rests on searches of limited scope",
+   "closingQuestion": "Would MathSciNet or zbMATH change attribution?",
+   "triedOrSearched": "citing works of Johnston-Tait, arXiv and web searches; cited sources read in full",
+   "estimatedCost": "subscription indexes",
+   "cheap": false,
+   "decision": "OPEN",
+   "reasonOpen": "subscription indexes were outside the searched corpus",
+   "whyNotClosedNow": "recorded here; the paper positions its results against the sources read"
+  }
+ ],
+ "extensionScout": {
+  "by": "the internal review panel, the re-reviewer and the lead",
+  "date": "2026-11-24",
+  "proposals": [
+   "second-order term and a matching lower bound",
+   "tree analogue of Reinhart's conjecture",
+   "exhaustive checks beyond nine vertices for all graphs",
+   "K_{kappa+1}-free finite extremisers",
+   "uniformity in alpha"
+  ],
+  "actions": [
+   "partly done: numerical data to n = 10^6 (Table 3); lower bound attempted without success; open problem 2",
+   "done: Conjecture 12 with trees of order 6 to 20",
+   "not done: Reinhart Table 2.1 already covers up to ten vertices",
+   "not done",
+   "not done: open problem 4"
+  ]
+ }
+}

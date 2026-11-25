@@ -1,0 +1,68 @@
+# SPDX-License-Identifier: MIT
+name: Replay
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+env:
+  PYTHONDONTWRITEBYTECODE: "1"
+  OMP_NUM_THREADS: "1"
+  OPENBLAS_NUM_THREADS: "1"
+jobs:
+  quick:
+    name: Manifest; verify.py and the two independent scripts under python -O, byte-identical outputs; negative control
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check MANIFEST.sha256
+        run: sha256sum -c MANIFEST.sha256
+      - name: Install pinned packages
+        run: python3 -m pip install numpy==2.3.5 scipy==1.17.0 sympy==1.14.0
+      - name: Run the scripts in copies of the package (cwd = code/)
+        run: |
+          python3 -I -c 'import sys, numpy, scipy, sympy; print(sys.version, numpy.__version__, scipy.__version__, sympy.__version__)'
+          for d in runO neg1; do mkdir -p "$RUNNER_TEMP/$d/results"; cp -R code requirements.txt "$RUNNER_TEMP/$d/"; done
+          cd "$RUNNER_TEMP/runO/code"
+          for s in verify independent_trial_quotient independent_bounded_kernel; do python3 -I -B -O $s.py > ../results/$s.txt; done
+      - name: Compare with the recorded outputs (byte for byte)
+        run: |
+          for s in verify independent_trial_quotient independent_bounded_kernel; do cmp "$RUNNER_TEMP/runO/results/$s.txt" "results/$s.txt"; done
+          echo "outputs identical"
+      - name: Negative control under -O (check poly.subs(x,1)==0 in verify.py changed to ==1)
+        run: |
+          cd "$RUNNER_TEMP/neg1/code"
+          sed -i 's/require(poly.subs(x,1)==0)/require(poly.subs(x,1)==1)/' verify.py
+          grep -q 'require(poly.subs(x,1)==1)' verify.py
+          if python3 -I -B -O verify.py > out.txt 2>&1; then echo "failed check not detected"; exit 1; fi
+          grep -q 'CHECK FAILED' out.txt
+          echo "negative control detected"
+      - name: Working tree unchanged
+        run: test -z "$(git status --porcelain)"
+  finite-search-smoke:
+    # Not on the blocking path: runs only when dispatched by hand (a few minutes). The full --tree-max 20 run is
+    # recorded in REPLAY_RECEIPT.md.
+    if: github.event_name == 'workflow_dispatch'
+    name: finite_search.py --tree-max 14 under python -O, compared with the recorded JSON (subset policy)
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install pinned packages and nauty
+        run: |
+          python3 -m pip install numpy==2.3.5 scipy==1.17.0
+          sudo apt-get update && sudo apt-get install -y nauty
+          mkdir -p "$RUNNER_TEMP/nauty"
+          for p in geng gentreeg; do q=$(command -v nauty-$p || command -v $p); ln -s "$q" "$RUNNER_TEMP/nauty/$p"; done
+      - name: Run and compare
+        run: |
+          mkdir -p "$RUNNER_TEMP/fs/results"; cp -R code "$RUNNER_TEMP/fs/"; cd "$RUNNER_TEMP/fs/code"
+          NAUTY_BIN="$RUNNER_TEMP/nauty" python3 -I -B -O finite_search.py --tree-max 14 --output ../results/finite_search.json > ../results/finite_search.txt
+          test "$(grep -c '^PASS' ../results/finite_search.txt)" = 3
+          cd "$GITHUB_WORKSPACE" && python3 -I .github/ci/compare_finite_search.py "$RUNNER_TEMP/fs/results/finite_search.json" results/finite_search.json --subset

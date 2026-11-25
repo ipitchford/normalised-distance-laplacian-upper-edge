@@ -1,0 +1,49 @@
+Exact characteristic polynomial det(xI-P) on paths (alpha=1)
+2 (x - 1)*(x + 1)
+3 (x - 1)*(3*x + 1)*(3*x + 2)/9
+4 (x - 1)*(4*x + 1)*(12*x**2 + 9*x + 1)/48
+5 (x - 1)*(35*x**2 + 24*x + 2)*(105*x**2 + 33*x + 2)/3675
+Direct all-pairs integer energy, denominator, and numerical spectral inequality checked for 260 parameter triples.
+Large-n exact trial upper bounds; final column is their rounded scaled value.
+class n r E/H sqrt(n)*E/H
+cliques 100 17 71770/370893 1.935059438
+cliques 10000 173 4264368589/188076284962 2.267361135
+cliques 1000000 1732 864873254923856/375193199980036737 2.305141071
+cliques 100000000 17321 1273477313490309561/5515337305720195660022 2.308974489
+predicted limit 2.309401077
+stars 100 24 522006/2052299 2.543518269
+stars 10000 245 59658478041/1874693634037 3.182305469
+stars 1000000 2449 488422500167194/149939263328524393 3.257468987
+stars 100000000 24495 4910836034019094752/15040232029894877245639 3.265133160
+predicted limit 3.265986324
+Full numerical distance-power checks at n=211: class, power, r, true deficit, trial bound
+clique    0.5  32 0.38433239 0.38601115
+bipartite 0.5  36 0.41930029 0.42144284
+tree      0.5  40 0.44960669 0.45363795
+clique    1.0  25 0.14058292 0.14064082
+bipartite 1.0  31 0.16810608 0.16821924
+tree      1.0  36 0.18878685 0.18931711
+clique    2.0  15 0.02555051 0.02558851
+bipartite 2.0  21 0.03496408 0.03501290
+tree      2.0  24 0.03970605 0.03971058
+clique    3.0  11 0.00660299 0.00663459
+bipartite 3.0  16 0.00976878 0.00981762
+tree      3.0  18 0.01073977 0.01075412
+Slowly varying weight w(d)=log(1+d). The printed number is a scaled upper bound
+from clique sizes, minimum across-clique weight and maximum clique-to-path weight.
+log10(n), log(n) * upper bound, r=floor(n/ceil(log(n)^2))
+4 2.892804092
+16 1.778129522
+64 1.500633414
+256 1.420356312
+1024 1.396334584
+4096 1.389202047
+predicted limit 1.386294361
+Positive index w(d)=d log(1+d), exact pair counts with floating weights
+n h r w(h)*trial, r=round(sqrt(3 log(2))*h)
+1000 18 26 1.432270171
+100000 141 203 1.646093788
+10000000 1188 1713 1.734729490
+predicted limit 1.922702515
+PASS finite bounded-weight comparison on 180 matrices, including all 90 balanced equality cases.
+PASS

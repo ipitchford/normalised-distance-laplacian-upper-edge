@@ -1,0 +1,34 @@
+PASS quotient self-test (8 cases)
+graphs n=4 count=6 min=0.3856432231 KPK=0.3856432231 (2, 0, 2)
+graphs n=5 count=21 min=0.4113621352 KPK=0.4113621352 (2, 1, 2)
+graphs n=6 count=112 min=0.4216460272 KPK=0.4216460272 (3, 1, 2)
+graphs n=7 count=853 min=0.4135181559 KPK=0.4135181559 (3, 1, 3)
+graphs n=8 count=11117 min=0.4096715503 KPK=0.4096715503 (3, 2, 3)
+graphs n=9 count=261080 min=0.4062761281 KPK=0.4062761281 (4, 2, 3)
+trees  n=6 count=6 min=0.4244609875 broom=0.4244609875 (0, 3, 1)
+trees  n=7 count=11 min=0.4321626656 broom=0.4321626656 (1, 3, 1)
+trees  n=8 count=23 min=0.4370794678 broom=0.4370794678 (0, 5, 1)
+trees  n=9 count=47 min=0.4404140726 broom=0.4404140726 (1, 5, 1)
+trees  n=10 count=106 min=0.4386866731 broom=0.4386866731 (2, 4, 2)
+trees  n=11 count=235 min=0.4359667263 broom=0.4359667263 (2, 5, 2)
+trees  n=12 count=551 min=0.4351082814 broom=0.4351082814 (2, 6, 2)
+trees  n=13 count=1301 min=0.4311601572 broom=0.4311601572 (3, 5, 3)
+trees  n=14 count=3159 min=0.4268693520 broom=0.4268693520 (3, 6, 3)
+trees  n=15 count=7741 min=0.4244559906 broom=0.4244559906 (4, 6, 3)
+trees  n=16 count=19320 min=0.4197968437 broom=0.4197968437 (4, 6, 4)
+trees  n=17 count=48629 min=0.4156374895 broom=0.4156374895 (4, 7, 4)
+trees  n=18 count=123867 min=0.4124295069 broom=0.4124295069 (4, 7, 5)
+trees  n=19 count=317955 min=0.4077973680 broom=0.4077973680 (5, 7, 5)
+trees  n=20 count=823065 min=0.4042532525 broom=0.4042532525 (5, 8, 5)
+PASS exhaustive: family members attain the minimum deficit at every order checked
+clique-path-clique  n=     100 r=   15 sqrt(n)eps=1.918897 r/sqrt(n)=1.5000 n*(eps-K/sqrt n)=-3.9050
+clique-path-clique  n=    1000 r=   52 sqrt(n)eps=2.178360 r/sqrt(n)=1.6444 n*(eps-K/sqrt n)=-4.1439
+clique-path-clique  n=   10000 r=  171 sqrt(n)eps=2.267135 r/sqrt(n)=1.7100 n*(eps-K/sqrt n)=-4.2266
+clique-path-clique  n=  100000 r=  545 sqrt(n)eps=2.295949 r/sqrt(n)=1.7234 n*(eps-K/sqrt n)=-4.2541
+clique-path-clique  n= 1000000 r= 1729 sqrt(n)eps=2.305138 r/sqrt(n)=1.7290 n*(eps-K/sqrt n)=-4.2626
+double broom        n=     100 r=   22 sqrt(n)eps=2.517337 r/sqrt(n)=2.2000 n*(eps-K/sqrt n)=-7.4865
+double broom        n=    1000 r=   74 sqrt(n)eps=3.007695 r/sqrt(n)=2.3401 n*(eps-K/sqrt n)=-8.1679
+double broom        n=   10000 r=  242 sqrt(n)eps=3.181846 r/sqrt(n)=2.4200 n*(eps-K/sqrt n)=-8.4140
+double broom        n=  100000 r=  771 sqrt(n)eps=3.239123 r/sqrt(n)=2.4381 n*(eps-K/sqrt n)=-8.4951
+double broom        n= 1000000 r= 2446 sqrt(n)eps=3.257465 r/sqrt(n)=2.4460 n*(eps-K/sqrt n)=-8.5212
+PASS
